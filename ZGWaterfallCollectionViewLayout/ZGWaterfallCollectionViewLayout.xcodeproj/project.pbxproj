@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFC98A1E1C8D128F00C71F14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC98A1D1C8D128F00C71F14 /* main.m */; };
+		EFC98A211C8D128F00C71F14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC98A201C8D128F00C71F14 /* AppDelegate.m */; };
+		EFC98A241C8D128F00C71F14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC98A231C8D128F00C71F14 /* ViewController.m */; };
+		EFC98A271C8D128F00C71F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC98A251C8D128F00C71F14 /* Main.storyboard */; };
+		EFC98A291C8D128F00C71F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC98A281C8D128F00C71F14 /* Assets.xcassets */; };
+		EFC98A2C1C8D128F00C71F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC98A2A1C8D128F00C71F14 /* LaunchScreen.storyboard */; };
+		EFC98A371C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC98A361C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutTests.m */; };
+		EFC98A421C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC98A411C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutUITests.m */; };
+		EFC98A531C8D135600C71F14 /* ZGWaterfallCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC98A521C8D135600C71F14 /* ZGWaterfallCollectionViewLayout.m */; };
+		EFC98A561C8D2D5100C71F14 /* ZGTestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC98A551C8D2D5100C71F14 /* ZGTestCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFC98A331C8D128F00C71F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC98A111C8D128F00C71F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC98A181C8D128F00C71F14;
+			remoteInfo = ZGWaterfallCollectionViewLayout;
+		};
+		EFC98A3E1C8D128F00C71F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC98A111C8D128F00C71F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC98A181C8D128F00C71F14;
+			remoteInfo = ZGWaterfallCollectionViewLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFC98A191C8D128F00C71F14 /* ZGWaterfallCollectionViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGWaterfallCollectionViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC98A1D1C8D128F00C71F14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFC98A1F1C8D128F00C71F14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFC98A201C8D128F00C71F14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFC98A221C8D128F00C71F14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFC98A231C8D128F00C71F14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFC98A261C8D128F00C71F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFC98A281C8D128F00C71F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFC98A2B1C8D128F00C71F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFC98A2D1C8D128F00C71F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC98A321C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGWaterfallCollectionViewLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC98A361C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGWaterfallCollectionViewLayoutTests.m; sourceTree = "<group>"; };
+		EFC98A381C8D128F00C71F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC98A3D1C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGWaterfallCollectionViewLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC98A411C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGWaterfallCollectionViewLayoutUITests.m; sourceTree = "<group>"; };
+		EFC98A431C8D128F00C71F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC98A511C8D135600C71F14 /* ZGWaterfallCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGWaterfallCollectionViewLayout.h; sourceTree = "<group>"; };
+		EFC98A521C8D135600C71F14 /* ZGWaterfallCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGWaterfallCollectionViewLayout.m; sourceTree = "<group>"; };
+		EFC98A541C8D2D5100C71F14 /* ZGTestCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGTestCollectionViewCell.h; sourceTree = "<group>"; };
+		EFC98A551C8D2D5100C71F14 /* ZGTestCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGTestCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFC98A161C8D128F00C71F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC98A2F1C8D128F00C71F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC98A3A1C8D128F00C71F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFC98A101C8D128F00C71F14 = {
+			isa = PBXGroup;
+			children = (
+				EFC98A1B1C8D128F00C71F14 /* ZGWaterfallCollectionViewLayout */,
+				EFC98A351C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutTests */,
+				EFC98A401C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutUITests */,
+				EFC98A1A1C8D128F00C71F14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFC98A1A1C8D128F00C71F14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFC98A191C8D128F00C71F14 /* ZGWaterfallCollectionViewLayout.app */,
+				EFC98A321C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutTests.xctest */,
+				EFC98A3D1C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFC98A1B1C8D128F00C71F14 /* ZGWaterfallCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EFC98A4F1C8D133200C71F14 /* ZGWaterfallCollectionViewLayout */,
+				EFC98A1F1C8D128F00C71F14 /* AppDelegate.h */,
+				EFC98A201C8D128F00C71F14 /* AppDelegate.m */,
+				EFC98A221C8D128F00C71F14 /* ViewController.h */,
+				EFC98A231C8D128F00C71F14 /* ViewController.m */,
+				EFC98A251C8D128F00C71F14 /* Main.storyboard */,
+				EFC98A281C8D128F00C71F14 /* Assets.xcassets */,
+				EFC98A2A1C8D128F00C71F14 /* LaunchScreen.storyboard */,
+				EFC98A2D1C8D128F00C71F14 /* Info.plist */,
+				EFC98A1C1C8D128F00C71F14 /* Supporting Files */,
+			);
+			path = ZGWaterfallCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		EFC98A1C1C8D128F00C71F14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFC98A1D1C8D128F00C71F14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFC98A351C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFC98A361C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutTests.m */,
+				EFC98A381C8D128F00C71F14 /* Info.plist */,
+			);
+			path = ZGWaterfallCollectionViewLayoutTests;
+			sourceTree = "<group>";
+		};
+		EFC98A401C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFC98A411C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutUITests.m */,
+				EFC98A431C8D128F00C71F14 /* Info.plist */,
+			);
+			path = ZGWaterfallCollectionViewLayoutUITests;
+			sourceTree = "<group>";
+		};
+		EFC98A4F1C8D133200C71F14 /* ZGWaterfallCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EFC98A501C8D133200C71F14 /* View */,
+				EFC98A511C8D135600C71F14 /* ZGWaterfallCollectionViewLayout.h */,
+				EFC98A521C8D135600C71F14 /* ZGWaterfallCollectionViewLayout.m */,
+			);
+			path = ZGWaterfallCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		EFC98A501C8D133200C71F14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFC98A541C8D2D5100C71F14 /* ZGTestCollectionViewCell.h */,
+				EFC98A551C8D2D5100C71F14 /* ZGTestCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFC98A181C8D128F00C71F14 /* ZGWaterfallCollectionViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC98A461C8D128F00C71F14 /* Build configuration list for PBXNativeTarget "ZGWaterfallCollectionViewLayout" */;
+			buildPhases = (
+				EFC98A151C8D128F00C71F14 /* Sources */,
+				EFC98A161C8D128F00C71F14 /* Frameworks */,
+				EFC98A171C8D128F00C71F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGWaterfallCollectionViewLayout;
+			productName = ZGWaterfallCollectionViewLayout;
+			productReference = EFC98A191C8D128F00C71F14 /* ZGWaterfallCollectionViewLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFC98A311C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC98A491C8D128F00C71F14 /* Build configuration list for PBXNativeTarget "ZGWaterfallCollectionViewLayoutTests" */;
+			buildPhases = (
+				EFC98A2E1C8D128F00C71F14 /* Sources */,
+				EFC98A2F1C8D128F00C71F14 /* Frameworks */,
+				EFC98A301C8D128F00C71F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC98A341C8D128F00C71F14 /* PBXTargetDependency */,
+			);
+			name = ZGWaterfallCollectionViewLayoutTests;
+			productName = ZGWaterfallCollectionViewLayoutTests;
+			productReference = EFC98A321C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFC98A3C1C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC98A4C1C8D128F00C71F14 /* Build configuration list for PBXNativeTarget "ZGWaterfallCollectionViewLayoutUITests" */;
+			buildPhases = (
+				EFC98A391C8D128F00C71F14 /* Sources */,
+				EFC98A3A1C8D128F00C71F14 /* Frameworks */,
+				EFC98A3B1C8D128F00C71F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC98A3F1C8D128F00C71F14 /* PBXTargetDependency */,
+			);
+			name = ZGWaterfallCollectionViewLayoutUITests;
+			productName = ZGWaterfallCollectionViewLayoutUITests;
+			productReference = EFC98A3D1C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFC98A111C8D128F00C71F14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Zong;
+				TargetAttributes = {
+					EFC98A181C8D128F00C71F14 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EFC98A311C8D128F00C71F14 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EFC98A181C8D128F00C71F14;
+					};
+					EFC98A3C1C8D128F00C71F14 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EFC98A181C8D128F00C71F14;
+					};
+				};
+			};
+			buildConfigurationList = EFC98A141C8D128F00C71F14 /* Build configuration list for PBXProject "ZGWaterfallCollectionViewLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFC98A101C8D128F00C71F14;
+			productRefGroup = EFC98A1A1C8D128F00C71F14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFC98A181C8D128F00C71F14 /* ZGWaterfallCollectionViewLayout */,
+				EFC98A311C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutTests */,
+				EFC98A3C1C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFC98A171C8D128F00C71F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC98A2C1C8D128F00C71F14 /* LaunchScreen.storyboard in Resources */,
+				EFC98A291C8D128F00C71F14 /* Assets.xcassets in Resources */,
+				EFC98A271C8D128F00C71F14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC98A301C8D128F00C71F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC98A3B1C8D128F00C71F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFC98A151C8D128F00C71F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC98A561C8D2D5100C71F14 /* ZGTestCollectionViewCell.m in Sources */,
+				EFC98A531C8D135600C71F14 /* ZGWaterfallCollectionViewLayout.m in Sources */,
+				EFC98A241C8D128F00C71F14 /* ViewController.m in Sources */,
+				EFC98A211C8D128F00C71F14 /* AppDelegate.m in Sources */,
+				EFC98A1E1C8D128F00C71F14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC98A2E1C8D128F00C71F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC98A371C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC98A391C8D128F00C71F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC98A421C8D128F00C71F14 /* ZGWaterfallCollectionViewLayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFC98A341C8D128F00C71F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC98A181C8D128F00C71F14 /* ZGWaterfallCollectionViewLayout */;
+			targetProxy = EFC98A331C8D128F00C71F14 /* PBXContainerItemProxy */;
+		};
+		EFC98A3F1C8D128F00C71F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC98A181C8D128F00C71F14 /* ZGWaterfallCollectionViewLayout */;
+			targetProxy = EFC98A3E1C8D128F00C71F14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFC98A251C8D128F00C71F14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC98A261C8D128F00C71F14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFC98A2A1C8D128F00C71F14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC98A2B1C8D128F00C71F14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFC98A441C8D128F00C71F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFC98A451C8D128F00C71F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC98A471C8D128F00C71F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGWaterfallCollectionViewLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGWaterfallCollectionViewLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFC98A481C8D128F00C71F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGWaterfallCollectionViewLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGWaterfallCollectionViewLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFC98A4A1C8D128F00C71F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGWaterfallCollectionViewLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGWaterfallCollectionViewLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGWaterfallCollectionViewLayout.app/ZGWaterfallCollectionViewLayout";
+			};
+			name = Debug;
+		};
+		EFC98A4B1C8D128F00C71F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGWaterfallCollectionViewLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGWaterfallCollectionViewLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGWaterfallCollectionViewLayout.app/ZGWaterfallCollectionViewLayout";
+			};
+			name = Release;
+		};
+		EFC98A4D1C8D128F00C71F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGWaterfallCollectionViewLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGWaterfallCollectionViewLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGWaterfallCollectionViewLayout;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EFC98A4E1C8D128F00C71F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGWaterfallCollectionViewLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGWaterfallCollectionViewLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGWaterfallCollectionViewLayout;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFC98A141C8D128F00C71F14 /* Build configuration list for PBXProject "ZGWaterfallCollectionViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC98A441C8D128F00C71F14 /* Debug */,
+				EFC98A451C8D128F00C71F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC98A461C8D128F00C71F14 /* Build configuration list for PBXNativeTarget "ZGWaterfallCollectionViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC98A471C8D128F00C71F14 /* Debug */,
+				EFC98A481C8D128F00C71F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC98A491C8D128F00C71F14 /* Build configuration list for PBXNativeTarget "ZGWaterfallCollectionViewLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC98A4A1C8D128F00C71F14 /* Debug */,
+				EFC98A4B1C8D128F00C71F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC98A4C1C8D128F00C71F14 /* Build configuration list for PBXNativeTarget "ZGWaterfallCollectionViewLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC98A4D1C8D128F00C71F14 /* Debug */,
+				EFC98A4E1C8D128F00C71F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFC98A111C8D128F00C71F14 /* Project object */;
+}
